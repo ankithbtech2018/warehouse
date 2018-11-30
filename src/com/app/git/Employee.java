@@ -5,6 +5,7 @@ public class Employee
 	private String empName;
 	private String empDept;
 	private Integer empId;
+	private String empGender;
 	
 	public Integer getEmpId(){
 		return empId;
