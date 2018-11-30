@@ -39,6 +39,17 @@ public class Employee
 	public void setEmpDept(String empDept) {
 		this.empDept = empDept;
 	}
+	public String getEmpGender() {
+		return empGender;
+	}
+	public void setEmpGender(String empGender) {
+		this.empGender = empGender;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empName=" + empName + ", empDept=" + empDept + ", empId=" + empId + ", empGender=" + empGender
+				+ "]";
+	}
 
 	
 	
