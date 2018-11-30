@@ -4,6 +4,14 @@ public class Employee
 {
 	private String empName;
 	private String empDept;
+	private Integer empId;
+	
+	public Integer getEmpId(){
+		return empId;
+	}
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
+	}
 	
 	public Employee(String empName, String empDept) {
 		super();
